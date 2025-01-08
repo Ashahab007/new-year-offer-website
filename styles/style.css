@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* fonts */
+.inter-normal {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* banner section start */
+.banner-section {
+  width: 1320px;
+  height: 600px;
+  background: linear-gradient(180deg, black, white),
+    url("../styles/images/Banner\ Image.png");
+  /* background-color: linear-gradient(180deg, black, white); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* text-align: center; */
+  /* border: 1px solid; */
+}
+
+.banner {
+  border: 1px solid whitesmoke;
+  height: 100%;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h3 {
+  font-size: 35px;
+}
+.banner h1 {
+  font-size: 75px;
+  font-weight: 600;
+}
