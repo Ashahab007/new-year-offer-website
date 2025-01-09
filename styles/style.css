@@ -278,6 +278,7 @@ body {
 /* designing portfolio section */
 .portfolio-product-section {
   margin-top: 120px;
+  /* border: 1px solid; */
 }
 
 .portfolio-text-container .portfolio-subtitle {
@@ -307,4 +308,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+}
+
+/* designing newsletter section */
+
+.newsletter-section {
+  margin-top: 180px;
+  border: 1px solid;
 }
