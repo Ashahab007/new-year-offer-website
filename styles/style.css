@@ -37,8 +37,7 @@ body {
 /* banner section start */
 .banner-section {
   margin-top: 50px;
-  background: url("../styles/images/Banner\ Image.png");
-  /* linear-gradient(180deg, black, white), */
+  background: /*linear-gradient(180deg, black, white),*/ url("../styles/images/Banner\ Image.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -99,8 +98,8 @@ body {
 /* Designing welcome banner section */
 .welcome-banner-section {
   margin-top: 120px;
-  background: url("../styles/images/Vectorrr.png");
-  /* linear-gradient(180deg, black, white), */
+  background: /*linear-gradient(180deg, black, white),*/ url("../styles/images/Vectorrr.png");
+  /* , */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -274,4 +273,38 @@ body {
   margin-top: 18px;
   color: hsla(260, 79%, 4%, 0.525);
   line-height: 30px;
+}
+
+/* designing portfolio section */
+.portfolio-product-section {
+  margin-top: 120px;
+}
+
+.portfolio-text-container .portfolio-subtitle {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.portfolio-subtitle span {
+  color: #ff0000;
+}
+
+.portfolio-description {
+  margin-top: 18px;
+  width: 720px;
+  color: hsla(260, 79%, 4%, 0.525);
+  line-height: 30px;
+}
+
+.porfolio-title {
+  font-size: 48px;
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+.portfolio-product-container {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
