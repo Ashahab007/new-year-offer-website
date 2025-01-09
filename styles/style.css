@@ -16,17 +16,19 @@
   font-style: normal;
 }
 
-/* banner section start */
-.banner-section {
+/* shared style */
+.common-width {
   width: 1320px;
   height: 600px;
-  background: linear-gradient(180deg, black, white),
-    url("../styles/images/Banner\ Image.png");
-  /* background-color: linear-gradient(180deg, black, white); */
+}
+
+/* banner section start */
+.banner-section {
+  margin-top: 50px;
+  background: url("../styles/images/Banner\ Image.png");
+  /* linear-gradient(180deg, black, white), */
   background-repeat: no-repeat;
   background-size: cover;
-  /* text-align: center; */
-  /* border: 1px solid; */
 }
 
 .banner {
