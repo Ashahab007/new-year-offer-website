@@ -17,9 +17,16 @@
 }
 
 /* shared style */
-.common-width {
+.common-width-container {
   width: 1320px;
   height: 600px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* banner section start */
@@ -32,7 +39,6 @@
 }
 
 .banner {
-  border: 1px solid whitesmoke;
   height: 100%;
   color: aliceblue;
   display: flex;
@@ -44,7 +50,81 @@
 .banner h3 {
   font-size: 35px;
 }
+
 .banner h1 {
   font-size: 75px;
   font-weight: 600;
+  width: 600px;
+  text-align: center;
+}
+
+/* Designing offer section */
+.offer-section-container {
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.offer-section-text {
+  text-align: center;
+}
+
+.offer-section-text h1 {
+  font-size: 88px;
+  color: #ff0000;
+}
+
+.offer-section-text p {
+  font-size: 24px;
+  color: #ff0000;
+  text-transform: uppercase;
+  margin-top: 48px;
+}
+.offer-section-text h3 {
+  font-size: 48px;
+  color: #070211;
+  margin-top: 16px;
+  text-transform: uppercase;
+  /* letter-spacing: 2px; */
+}
+
+/* Designing welcome banner section */
+.welcome-banner-section {
+  margin-top: 120px;
+  background: url("../styles/images/Vectorrr.png");
+  /* linear-gradient(180deg, black, white), */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-title {
+  width: 642px;
+  font-size: 64px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: #ffffff;
+  margin: 126px 0 0 126px;
+}
+
+.banner-description {
+  width: 697px;
+  font-size: 18px;
+  color: #ffffff;
+  opacity: 80%;
+  margin: 24px 0 0 126px;
+  line-height: 30px;
+}
+
+.welcome-banner-section button {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  margin: 48px 0 0 156px;
 }
