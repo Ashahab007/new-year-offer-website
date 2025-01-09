@@ -98,10 +98,10 @@ body {
 /* Designing welcome banner section */
 .welcome-banner-section {
   margin-top: 120px;
-  background: /*linear-gradient(180deg, black, white),*/ url("../styles/images/Vectorrr.png");
-  /* , */
+  background-image: url("../styles/images/Group\ 70.png"),
+    url("../styles/images/Vectorrr.png");
+  background-position: top 50px right 130px, center;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .banner-title {
@@ -325,10 +325,11 @@ body {
 .newsletter-section {
   margin-top: 120px;
   background-color: rgb(255, 242, 242);
+  border-radius: 15px;
 }
 
 .newsletter-container {
-  margin-top: 10%;
+  margin-top: 5%;
   display: flex;
   flex-direction: column;
   gap: 60px;
@@ -338,7 +339,7 @@ body {
 }
 
 .newsletter-email {
-  margin-top: 80px;
+  margin-top: 90px;
   display: flex;
   justify-content: center;
 }
@@ -363,4 +364,61 @@ input[type="button"] {
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   font-size: 20px;
+}
+
+/* design footer section */
+footer {
+  border: 1px solid;
+  margin-top: 120px;
+  width: 1600px;
+  height: 600px;
+  background-color: #070211;
+}
+
+.address-contact-container {
+  display: flex;
+  justify-content: space-around;
+  color: #ffffff;
+  margin-top: 120px;
+}
+
+.contact .icon {
+  width: 20px;
+  height: 20px;
+}
+
+.contact .icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-number-container,
+.website-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social-media-icon {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px;
+}
+
+hr {
+  border: 0.2px solid rgba(249, 249, 249, 0.788);
+  opacity: 0.08;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-around;
+  color: #ffffff;
+  margin-top: 120px;
+}
+
+.horizantal-1 {
+  margin-top: 60px;
 }
