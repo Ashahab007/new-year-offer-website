@@ -419,6 +419,11 @@ hr {
   margin-top: 120px;
 }
 
+hr {
+  width: 1320px;
+  margin-left: 140px;
+}
+
 .horizantal-1 {
   margin-top: 60px;
 }
