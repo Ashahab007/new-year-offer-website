@@ -38,9 +38,9 @@ body {
 .banner-section {
   margin-top: 50px;
   background: linear-gradient(
-      to top,
-      hsla(0, 3%, 7%, 0.601),
-      rgba(133, 130, 130, 0.15)
+      to bottom,
+      hsla(0, 3%, 7%, 0.713),
+      rgba(65, 64, 64, 0)
     ),
     url("../styles/images/Banner\ Image.png");
   background-repeat: no-repeat;
